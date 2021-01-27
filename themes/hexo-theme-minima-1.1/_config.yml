@@ -10,7 +10,7 @@ desc: "You can find release notes and updates about Wav2Bar here."
 #menu
 menu:
   Archives: /archives
-  Wav2Bar Homepage: https://picorims.github.io/wab2bar-website/
+  Wav2Bar Homepage: https://picorims.github.io/wav2bar-website/
 
 #index/main page max show posts (in number)
 max_post: 10
