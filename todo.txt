@@ -10,3 +10,4 @@ ok - youtube link
 ok - discord link
 ok - mail link
 ok - comments in code
+- redirection in / to /public/

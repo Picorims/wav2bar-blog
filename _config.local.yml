@@ -1,2 +1,3 @@
 url: localhost:4000
 public_dir: local
+render_drafts: true
