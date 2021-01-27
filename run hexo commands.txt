@@ -1,2 +1,4 @@
 - be in ./blog/
 - npx hexo <command>
+
+- npx hexo generate --config _config.yml,_config.local.yml

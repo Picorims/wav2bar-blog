@@ -9,7 +9,7 @@ info: "I'm Picorims, a French freshman student, and I develop Wav2Bar on my spar
 desc: "You can find release notes and updates about Wav2Bar here."
 #menu
 menu:
-  Archives: /archives
+  Archives: /archives/index.html
   Wav2Bar Homepage: https://picorims.github.io/wav2bar-website/
 
 #index/main page max show posts (in number)
@@ -29,7 +29,6 @@ nanobar: /js/nanobar.min.js
 
 # favicon
 favicon: /wav2bar-blog/public/images/favicon.png
-#for some reason it goes 2 times to /blog, ../ fixes this
 logo: /wav2bar-blog/public/images/logo.png
 #prevent clipping
 logo_width: 248
