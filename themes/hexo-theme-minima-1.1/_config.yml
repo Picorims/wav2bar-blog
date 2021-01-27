@@ -28,9 +28,9 @@ mail: picorims.contact@gmail.com
 nanobar: /js/nanobar.min.js
 
 # favicon
-favicon: /images/favicon.png
+favicon: /wav2bar-blog/public/images/favicon.png
 #for some reason it goes 2 times to /blog, ../ fixes this
-logo: /images/logo.png
+logo: /wav2bar-blog/public/images/logo.png
 #prevent clipping
 logo_width: 248
 logo_height: 64
