@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://picorims.github.io/wav2bar-blog/public/
-root: /
+url: https://picorims.github.io/
+root: /wav2bar-blog/public/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
