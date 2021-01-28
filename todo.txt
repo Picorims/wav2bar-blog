@@ -11,3 +11,4 @@ ok - discord link
 ok - mail link
 ok - comments in code
 - redirection in / to /public/
+- use full_url as much as possible for css/js/logo/favicon (naviguation fuck it)

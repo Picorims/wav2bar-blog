@@ -25,7 +25,7 @@ discord: https://discord.gg/EVGzfdP
 mail: picorims.contact@gmail.com
 
 # js
-nanobar: /js/nanobar.min.js
+nanobar: js/nanobar.min.js
 
 # favicon
 favicon: /wav2bar-blog/public/images/favicon.png

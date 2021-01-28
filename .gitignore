@@ -6,3 +6,6 @@
 #public/
 #.deploy*/
 local/
+static/
+_config.static.yml
+_multiconfig.yml
