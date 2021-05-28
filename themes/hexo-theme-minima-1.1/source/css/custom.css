@@ -340,6 +340,9 @@ a.footer-link:focus {
 .mail {
   fill: #EA4335;
 }
+.feed {
+  fill: var(--main-white);
+}
 
 
 

@@ -24,6 +24,10 @@ youtube: https://www.youtube.com/channel/UCf15T29ZZ5RxQcbS9onQq9A
 discord: https://discord.gg/EVGzfdP
 mail: picorims.contact@gmail.com
 
+#feed
+feed:
+  atom: /wav2bar-blog/public/atom.xml
+
 # js
 nanobar: js/nanobar.min.js
 

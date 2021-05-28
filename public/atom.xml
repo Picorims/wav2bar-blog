@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wav2Bar Blog</title>
+  
+  
+  <link href="https://picorims.github.io/wav2bar-blog/public/atom.xml" rel="self"/>
+  
+  <link href="https://picorims.github.io/wav2bar-blog/public/"/>
+  <updated>2021-05-28T22:26:45.586Z</updated>
+  <id>https://picorims.github.io/wav2bar-blog/public/</id>
+  
+  <author>
+    <name>Picorims</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Beta 0.1 and general update</title>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/</id>
+    <published>2021-05-28T22:26:40.000Z</published>
+    <updated>2021-05-28T22:26:45.586Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;The first beta of Wav2Bar (0.1) has been released a month ago. In this post I will talk about the first impressions I have on</summary>
+        
+      
+    
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
+    
+    <category term="releases" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/releases/"/>
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
+    
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
+    
+    <category term="release" scheme="https://picorims.github.io/wav2bar-blog/public/tags/release/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>First post!</title>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2021/01/26/first-post/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2021/01/26/first-post/</id>
+    <published>2021-01-26T15:36:21.000Z</published>
+    <updated>2021-01-27T20:19:04.856Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;I aim to release updates and changelogs for Wav2Bar on this blog page. The future will tell if it is successful or not… For</summary>
+        
+      
+    
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
+    
+  </entry>
+  
+</feed>
