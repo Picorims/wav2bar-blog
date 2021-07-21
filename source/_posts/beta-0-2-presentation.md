@@ -4,7 +4,7 @@ categories:
 - news
 - releases
 date: 2021-07-21 18:01:35
-updated:
+updated: 2021-07-21 18:28:11
 tags:
 - news
 - beta
@@ -15,7 +15,7 @@ thumbnail: 2021-07-21-155400-wav2bar-0-2-0-beta.png
 
 Hi!
 
-Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of this version. For detailed changelogs, see the [Github Releases page](https://github.com/Picorims/wav2bar/releases/tag/v0.1.2 "Wav2Bar 0.2.0 changelogs").
+Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of this version. For detailed changelogs, see the [Github Releases page](https://github.com/Picorims/wav2bar/releases/tag/v0.2.0 "Wav2Bar 0.2.0 changelogs").
 
 # SVG Filters support
 
