@@ -2,3 +2,5 @@
 - npx hexo <command>
 
 - npx hexo generate --config _config.yml,_config.local.yml
+
+- node feed_patcher.js

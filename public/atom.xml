@@ -6,7 +6,7 @@
   <link href="https://picorims.github.io/wav2bar-blog/public/atom.xml" rel="self"/>
   
   <link href="https://picorims.github.io/wav2bar-blog/public/"/>
-  <updated>2021-05-28T22:26:45.586Z</updated>
+  <updated>2021-07-21T15:25:24.612Z</updated>
   <id>https://picorims.github.io/wav2bar-blog/public/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Introducing Wav2Bar Beta 0.2.0</title>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/</id>
+    <published>2021-07-21T13:50:35.000Z</published>
+    <updated>2021-07-21T15:25:24.612Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of</summary>
+        
+      
+    
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
+    
+    <category term="releases" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/releases/"/>
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
+    
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
+    
+    <category term="release" scheme="https://picorims.github.io/wav2bar-blog/public/tags/release/"/>
+    
+  </entry>
   
   <entry>
     <title>Beta 0.1 and general update</title>
