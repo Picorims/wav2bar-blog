@@ -3,7 +3,7 @@ title: Introducing Wav2Bar Beta 0.2.0
 categories:
 - news
 - releases
-date: 2021-07-21 15:50:35
+date: 2021-07-21 18:01:35
 updated:
 tags:
 - news
