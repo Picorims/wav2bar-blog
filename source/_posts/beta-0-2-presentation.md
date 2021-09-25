@@ -17,7 +17,7 @@ Hi!
 
 Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of this version. For detailed changelogs, see the [Github Releases page](https://github.com/Picorims/wav2bar/releases/tag/v0.2.0 "Wav2Bar 0.2.0 changelogs").
 
-# SVG Filters support
+## SVG Filters support
 
 SVG filters are now supported on all objects, which allows you to interact with the graphical output in many ways. ***This feature is useful if you want to add visual effects to an object: blur, glow, image correction, distortion, extrusion, outline, shadows, lighting, etc.*** For instance, the outlined visualizer of the thumbnail and the image blurring on the thumbnail have both been made with SVG filters!
 
@@ -30,7 +30,7 @@ SVG filters are added by pasting them in a dedicated field. A filter is defined 
 
 This is definitely not a feature for everyone, but if you want to push Wav2Bar into its limits, that's a good way to do it.
 
-## Simple example
+### Simple example
 
 Lets take the following filter:
 ```svg
@@ -46,7 +46,7 @@ This filter produces a glow effect, by blurring the source, and drawing it behin
 
 {% asset_img 2021-07-21-162137-beta-0-2-glow-example.png Glow effect on a visualizer with SVG filters %}
 
-# User interface improvements
+## User interface improvements
 
 This update also includes improvements for the user interface, mainly for object interaction.
 
@@ -60,7 +60,7 @@ Some new features have been introduced as well. ***Some shortcut buttons have be
 
 Some small tweaks have also been made here and there.
 
-# Experimental export mode
+## Experimental export mode
 
 When Wav2Bar exports a video, it first generates all frames as images, and then combine them into a video. Right now, the PNG format is used, and video exporting is painfully slow.
 
@@ -68,7 +68,7 @@ As an experimentation, you can now choose to use JPEG images with 100% quality i
 
 Keeping the export window behind the main window can also improve exporting speed and performance.
 
-# Bug fixes
+## Bug fixes
 
 Multiple bugs have been patched in this release. The most noticeable are listed below:
 - Changing the points count of a visualizer no longer breaks its display.
@@ -76,7 +76,7 @@ Multiple bugs have been patched in this release. The most noticeable are listed 
 - Updated the font size help bubble, that was outdated.
 - Removed "audio not saved" from the saving option title, this was only accurate in pre 0.1.0-beta releases. ***(Audio has always been saved in public releases!)***
 
-# What's next ?
+## What's next ?
 
 I will probably make a 0.2.x update adding CLI support for some basic tasks. While not very useful for most users, it can be useful for Linux users wanting to automate some tasks. It will also be useful for myself for development purposes.
 

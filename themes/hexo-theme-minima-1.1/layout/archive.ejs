@@ -8,11 +8,11 @@
     }
 %>
 <% if(title && is_category()) { %>
-  <h5 class="">Category — <%- title %></h5>
+  <h1 class="">Category — <%- title %></h1>
 <% } else if (title) { %>
-  <h5 class=""><%- title %></h5>
+  <h1 class=""><%- title %></h1>
 <% } else { %>
-  <h5>All Posts</h5>
+  <h1>All Posts</h1>
 <% } %>
 
 <% page.posts.each(function(post) { %>

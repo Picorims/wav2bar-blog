@@ -136,12 +136,12 @@
           <!--page content-->
           <!--post content-->
 <article class="no-border">
-  <h4>Introducing Wav2Bar Beta 0.2.0</h4>
+  <h1>Introducing Wav2Bar Beta 0.2.0</h1>
   <img class="post-thumbnail mb-3" src="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/2021-07-21-155400-wav2bar-0-2-0-beta.png" alt="thumbnail">
 
   <p>Hi!</p>
 <p>Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of this version. For detailed changelogs, see the <a target="_blank" rel="noopener" href="https://github.com/Picorims/wav2bar/releases/tag/v0.2.0" title="Wav2Bar 0.2.0 changelogs">Github Releases page</a>.</p>
-<h1 id="SVG-Filters-support"><a href="#SVG-Filters-support" class="headerlink" title="SVG Filters support"></a>SVG Filters support</h1><p>SVG filters are now supported on all objects, which allows you to interact with the graphical output in many ways. <strong><em>This feature is useful if you want to add visual effects to an object: blur, glow, image correction, distortion, extrusion, outline, shadows, lighting, etc.</em></strong> For instance, the outlined visualizer of the thumbnail and the image blurring on the thumbnail have both been made with SVG filters!</p>
+<h2 id="SVG-Filters-support"><a href="#SVG-Filters-support" class="headerlink" title="SVG Filters support"></a>SVG Filters support</h2><p>SVG filters are now supported on all objects, which allows you to interact with the graphical output in many ways. <strong><em>This feature is useful if you want to add visual effects to an object: blur, glow, image correction, distortion, extrusion, outline, shadows, lighting, etc.</em></strong> For instance, the outlined visualizer of the thumbnail and the image blurring on the thumbnail have both been made with SVG filters!</p>
 <p>SVG filters are added by pasting them in a dedicated field. A filter is defined within a <code>&lt;filter&gt;&lt;/filter&gt;</code> tag, all separated by <code>[#]</code>. So multiple filters are added by entering <code>&lt;filter&gt;&lt;/filter&gt;[#]&lt;filter&gt;&lt;/filter&gt;[#]...</code>. Within a filter tag, you define the filter by following the SVG specification. Now, everyone is not an expert in SVG, and the syntax can be intimidating. Hopefully, there are many resources on the Internet to help you out crafting them:</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://svgfilters.com/">SVG Filter Builder</a>: A graphical user interface for making SVG filters. Paste the result between <code>&lt;filter&gt;&lt;/filter&gt;</code> to make it work with Wav2Bar. Alternatively, you can use other tools like Inkscape to make them.</li>
@@ -150,7 +150,7 @@
 <li><a target="_blank" rel="noopener" href="https://riptutorial.com/svg/topic/3262/filters">RIP Tutorial</a>: Another tutorial with examples.</li>
 </ul>
 <p>This is definitely not a feature for everyone, but if you want to push Wav2Bar into its limits, that’s a good way to do it.</p>
-<h2 id="Simple-example"><a href="#Simple-example" class="headerlink" title="Simple example"></a>Simple example</h2><p>Lets take the following filter:</p>
+<h3 id="Simple-example"><a href="#Simple-example" class="headerlink" title="Simple example"></a>Simple example</h3><p>Lets take the following filter:</p>
 <pre class="line-numbers language-svg" data-language="svg"><code class="language-svg"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>filter</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>feGaussianBlur</span> <span class="token attr-name">stdDeviation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>5.5<span class="token punctuation">"</span></span> <span class="token attr-name">result</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>coloredBlur<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>feMerge</span><span class="token punctuation">></span></span>
@@ -161,7 +161,7 @@
 <p>This filter produces a glow effect, by blurring the source, and drawing it behind. Here is the end result:</p>
 <img src="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/2021-07-21-162137-beta-0-2-glow-example.png" class="" title="Glow effect on a visualizer with SVG filters">
 
-<h1 id="User-interface-improvements"><a href="#User-interface-improvements" class="headerlink" title="User interface improvements"></a>User interface improvements</h1><p>This update also includes improvements for the user interface, mainly for object interaction.</p>
+<h2 id="User-interface-improvements"><a href="#User-interface-improvements" class="headerlink" title="User interface improvements"></a>User interface improvements</h2><p>This update also includes improvements for the user interface, mainly for object interaction.</p>
 <img src="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/2021-07-21-wav2bar-0-2-beta-before-after.png" class="" title="Glow effect on a visualizer with SVG filters">
 
 <p>The user interface is globally more compact to display more options on screen, without having to scroll too much. Everything is also more aligned to improve readability. In some cases, when an invalid value is entered by the user, it will show in red, meaning the value has been ignored as it is not valid. Right now it is only effective on number fields, however it may be extended to text fields in the future.</p>
@@ -169,17 +169,17 @@
 <img src="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/2021-07-21-w2b-0-2-beta-color-picker.png" class="" title="Glow effect on a visualizer with SVG filters">
 
 <p>Some small tweaks have also been made here and there.</p>
-<h1 id="Experimental-export-mode"><a href="#Experimental-export-mode" class="headerlink" title="Experimental export mode"></a>Experimental export mode</h1><p>When Wav2Bar exports a video, it first generates all frames as images, and then combine them into a video. Right now, the PNG format is used, and video exporting is painfully slow.</p>
+<h2 id="Experimental-export-mode"><a href="#Experimental-export-mode" class="headerlink" title="Experimental export mode"></a>Experimental export mode</h2><p>When Wav2Bar exports a video, it first generates all frames as images, and then combine them into a video. Right now, the PNG format is used, and video exporting is painfully slow.</p>
 <p>As an experimentation, you can now choose to use JPEG images with 100% quality instead. <strong><em>While it shouldn’t impact the video quality, it should however make the export generally two times faster, and sometimes up to six times faster!</em></strong>. The difference in speed is visually noticeable when looking at the progress.</p>
 <p>Keeping the export window behind the main window can also improve exporting speed and performance.</p>
-<h1 id="Bug-fixes"><a href="#Bug-fixes" class="headerlink" title="Bug fixes"></a>Bug fixes</h1><p>Multiple bugs have been patched in this release. The most noticeable are listed below:</p>
+<h2 id="Bug-fixes"><a href="#Bug-fixes" class="headerlink" title="Bug fixes"></a>Bug fixes</h2><p>Multiple bugs have been patched in this release. The most noticeable are listed below:</p>
 <ul>
 <li>Changing the points count of a visualizer no longer breaks its display.</li>
 <li>Text overline was not showing properly.</li>
 <li>Updated the font size help bubble, that was outdated.</li>
 <li>Removed “audio not saved” from the saving option title, this was only accurate in pre 0.1.0-beta releases. <strong><em>(Audio has always been saved in public releases!)</em></strong></li>
 </ul>
-<h1 id="What’s-next"><a href="#What’s-next" class="headerlink" title="What’s next ?"></a>What’s next ?</h1><p>I will probably make a 0.2.x update adding CLI support for some basic tasks. While not very useful for most users, it can be useful for Linux users wanting to automate some tasks. It will also be useful for myself for development purposes.</p>
+<h2 id="What’s-next"><a href="#What’s-next" class="headerlink" title="What’s next ?"></a>What’s next ?</h2><p>I will probably make a 0.2.x update adding CLI support for some basic tasks. While not very useful for most users, it can be useful for Linux users wanting to automate some tasks. It will also be useful for myself for development purposes.</p>
 <p>As for 0.3.0, it will atleast include a major rewrite of objects. Right now, its structure is not sustainable on the long term, and should be more flexible and extendable. It is also a good opportunity to add some quality of life features to them. This update may or may not receive major features, as this is a big task. However it is a necessary step towards maybe adding new visualizers.</p>
 <p>Enjoy!</p>
 <p>~ Picorims</p>
@@ -197,11 +197,11 @@
         <!--sidebar-->
 <div class="sidebar-container">
     <h6>Tags</h6>
-    <p class="mb-1"><a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
+    <p class="mb-1"><a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
 </div>
 <div class="sidebar-container">
     <h6>Categories</h6>
-    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/wav2bar-blog/public/categories/news/">news</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></li></ul></li></ul>
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/wav2bar-blog/public/categories/news/">news</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></li><li class="category-list-item"><a class="category-list-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></li></ul></li></ul>
 </div>
       </div>
     </div>
