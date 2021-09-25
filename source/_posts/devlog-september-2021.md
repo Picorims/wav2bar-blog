@@ -4,7 +4,7 @@ categories:
 - news
 - devlogs
 date: 2021-09-25 23:21:51
-updated: 2021-09-25 23:21:51
+updated: 2021-09-25 23:44:26
 tags:
 - news
 - beta
@@ -66,3 +66,7 @@ As always, because I am the only maintainer and developer of Wav2Bar, and as thi
 ## Contribution
 
 I will be preparing a CONTRIBUTING.md file on GitHub soon primarily for documentation on the project, but also to get something if someone would ever be interested to contribute. If it is your case, please contact me at picorims.contact@gmail.com so we can discuss the topic (in the current state it is not ready for that, in terms of git branches).
+
+That's it for today's devlog, stay tuned!
+
+~ Picorims
