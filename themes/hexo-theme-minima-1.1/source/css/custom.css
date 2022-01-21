@@ -132,6 +132,9 @@ article:not(.no-border) .article-container {
   border-top: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
 }
+.main-article h2 {
+  border-bottom: 2px solid var(--main-color);
+}
 
 
 

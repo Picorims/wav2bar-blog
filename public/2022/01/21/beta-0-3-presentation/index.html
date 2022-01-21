@@ -12,32 +12,36 @@
   <meta charset="utf-8">
 
   
-  <title>Posts Related to release</title>
+  <title>Introducing Wav2Bar Beta 0.3.0</title>
 
   
-  <meta name="description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta name="description" content="Hi! Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of new visual objects, b">
   
 
   <meta name="author" content="Picorims">
 
   
+  <meta property="og:image" content="https://picorims.github.io/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3.png">
+  
 
   <meta property="og:site_name" content="Wav2Bar Blog" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Posts Related to release" />
+  <meta property="og:title" content="Introducing Wav2Bar Beta 0.3.0" />
   
-  <meta property="og:description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta property="og:description" content="Hi! Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of new visual objects, b">
   
-  <meta property="og:url" content="https://picorims.github.io/tags/release/index.html" />
+  <meta property="og:url" content="https://picorims.github.io/2022/01/21/beta-0-3-presentation/index.html" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Posts Related to release">
+  <meta name="twitter:title" content="Introducing Wav2Bar Beta 0.3.0">
   
-  <meta name="twitter:description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta name="twitter:description" content="Hi! Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of new visual objects, b">
   
 
   
-  <meta name="twitter:url" content="https://picorims.github.io/tags/release/index.html" />
+  <meta name="twitter:image" content="https://picorims.github.io/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3.png">
+  
+  <meta name="twitter:url" content="https://picorims.github.io/2022/01/21/beta-0-3-presentation/index.html" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -130,98 +134,69 @@
       <div class="nine columns">
         <div class="trans">
           <!--page content-->
-          <!--tag page-->
+          <!--post content-->
+<article class="no-border main-article">
+  <h1>Introducing Wav2Bar Beta 0.3.0</h1>
+  <img class="post-thumbnail mb-3" src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3.png" alt="thumbnail">
+
+  <p>Hi!</p>
+<p>Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of new visual objects, but it also includes many small improvements.</p>
+<p>If you would like to give some inputs about future updates, then you might be interested by <a target="_blank" rel="noopener" href="https://framaforms.org/wav2bar-feedback-16012022-1642357540" title="Wav2Bar Feedback form">this form</a>.</p>
+<h2 id="Visual-objects"><a href="#Visual-objects" class="headerlink" title="Visual objects"></a>Visual objects</h2><h3 id="Particle-flows"><a href="#Particle-flows" class="headerlink" title="Particle flows"></a>Particle flows</h3><p>The particle flow visual object received some upgrades. When the audio is not playing, some options will still trigger a visual update, to see how these settings affect the overall look of the particles. Also, if you feel the need to, particle flow containers can now be rotated.</p>
+<h3 id="Timers"><a href="#Timers" class="headerlink" title="Timers"></a>Timers</h3><p>Timers are now positioned differently. When upgrading from an older save, the adjustments will be done automatically.</p>
+<h3 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h3><p>The background visual object has been removed. It was duplicating the visual object for images and shapes while just having less features (like moving or scaling the background for a better fit). When upgrading an old save, all background objects will be converted to image/shape objects, without any visual changes.</p>
+<h3 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h3><p>The default color of objects is now randomized at creation. This makes it less ambiguous when the object is created on another. Before, as all objects were white by default, you wouldn’t notice easily that it was added. Now, unless you just have no luck, colors will be different.</p>
+<img src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3_random_color.png" class="" title="Objects with randomized colors">
+
+<p>Some default values have also been changed for newly created objects.</p>
+<h2 id="User-interface"><a href="#User-interface" class="headerlink" title="User interface"></a>User interface</h2><h3 id="Responsiveness"><a href="#Responsiveness" class="headerlink" title="Responsiveness"></a>Responsiveness</h3><p>Some adjustments have been made to the user interface to make it more responsive in general. When big tasks are happening in the background, a loading screen is now displayed to lock the user interface</p>
+<img src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3_loading.png" class="" title="The loading screen indicator">
+
+<p>Moreover, the audio control panel and the user interface at the top of the screen in general had problematic issues (to the left). It would not react well to small windows. The buttons are now smaller, and the audio group has been split in two to overcome that (to the right).</p>
+<img src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3_top_ui.png" class="" title="The user interface at the top is more responsive">
+
+<p>Finally, the user interface should also be more responsive when resizing the window. </p>
+<h3 id="Visual-objects-1"><a href="#Visual-objects-1" class="headerlink" title="Visual objects"></a>Visual objects</h3><p>Changing an object’s name is now done using a dedicated field in the rack (to the right), instead of going through a modal window (to the left).</p>
+<img src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3_rename.png" class="" title="Renaming an object">
+
+<p>Additionally, irrelevant options (i.e that have no effect) in some objects are no longer available (timers, visualizers). In consequence they are no longer stored as well with these objects. This should remove some confusion on usage.</p>
+<h3 id="Other-improvements"><a href="#Other-improvements" class="headerlink" title="Other improvements"></a>Other improvements</h3><p>The help have been improved and updated, especially for saves and object creation. The logs folder is now directly accessible from the settings tab.</p>
+<h2 id="Technical-changes-and-performance-improvements"><a href="#Technical-changes-and-performance-improvements" class="headerlink" title="Technical changes and performance improvements"></a>Technical changes and performance improvements</h2><p>The main reason the 0.3.0 update is a technical update is that the way saves and visual objects are changed have been drastically changed (if not rewritten). This makes it much easier to maintain visual objects in the long term, especially for bug fixing and general improvements. Although it is still not perfect and has still problematic flaws (such as with user interface interactions), it will make it easier to add new features and visual objects with the minimum of required code.</p>
+<p>During this process, I took the opportunity to improve performances on some visual objects. In particular, Particle flows should run better when a big ammount of particle is simulated. Otherwise, changing some parameters on bar visualizers should create less lag. While the first change may affect the export speed (I have not tested however), the second one only affects the edition phase. In such situation, the user interface will be more responsive as a result.</p>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>The license has been changed from MIT to GPL-3.0-or-later. For more information, see the <a href="https://picorims.github.io/wav2bar-blog/public/2022/01/16/devlog-january-2022/" title="Devlog January 2022">January 2022 devlog</a>.</p>
+<h2 id="Fixes"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes</h2><p>This update also fixes numerous issues that appeared in 0.1.x and 0.2.x updates.</p>
+<ul>
+<li><strong>Visual objects</strong><ul>
+<li>Changing the color of a waves visualizer while audio is paused now updates the color visually. Same for particle flows.</li>
+<li>Particle flow’s flow type parameter provides help again.</li>
+</ul>
+</li>
+<li><strong>Command Line Interface</strong><ul>
+<li>Video export via CLI works again.</li>
+</ul>
+</li>
+<li><strong>User interface</strong><ul>
+<li>When opening a new save, existing user interface from old visual objects are now effectively removed.</li>
+<li>Interacting with control panel’s top tabs no longer moves the rest of the user interface.</li>
+<li>The top of the screen was hard to see, and hidden no matter what behind the top user interface (in some zoom and window size scenarios). There is now a minimum of padding above the screen.</li>
+<li>The window no longer flashes to white when being first opened.</li>
+<li>About section no longer have the text centered.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Security"><a href="#Security" class="headerlink" title="Security"></a>Security</h2><p>Electron has been updated from v12 to v16 and dependencies have been updated as well.</p>
+<h2 id="Linux-packages"><a href="#Linux-packages" class="headerlink" title="Linux packages"></a>Linux packages</h2><p>Wav2Bar is now available for Linux as a .zip file (compiled from Ubuntu). I am still having issues creating .deb and .rpm packages. Thus for the next update I will take a look at .flatpak, with the aim to cover more Linux distributions. If you encounter issues while using Wav2Bar on Linux, you can report bugs directly on the GitHub repository.</p>
+<h2 id="0-3-x"><a href="#0-3-x" class="headerlink" title="0.3.x"></a>0.3.x</h2><p>If any bug is found, it will be addressed in a small update. Otherwise, before going straight into new features, I will make a small update to continue improving the user interface (especially the project tab that is awful) and try to integrate ffmpeg directly into Wav2Bar packages.</p>
+<h2 id="Yes-it-took-a-while"><a href="#Yes-it-took-a-while" class="headerlink" title="Yes, it took a while"></a>Yes, it took a while</h2><p>I know this update took a long time to be released. The refactoring was much deeper than I anticipated. In addition, university work required me to delay the release of this update. I am aware this can be annoying, especially when bugs goes in the way of your workflow. These are the flows that comes with it being a side project…</p>
+<p>Anyways, I hope you will enjoy this update, and I see you for the next one!</p>
+<p>~ Picorims</p>
+
+  <p><a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a> — Jan 21, 2022 - 17:19:38, Updated on Jan 20, 2022 - 17:19:38</p>
+  <p>Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
+  <!--comments section of a post-->
 
 
-   <h1 class="">Posts Related to — release</h1>
-
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jan 21, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/" class="">
-            
-              Introducing Wav2Bar Beta 0.3.0
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of new visual objects, b...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jul 21, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/" class="">
-            
-              Introducing Wav2Bar Beta 0.2.0
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of this version. For detai...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/2021-07-21-155400-wav2bar-0-2-0-beta.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">May 29, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/" class="">
-            
-              Beta 0.1 and general update
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! The first beta of Wav2Bar (0.1) has been released a month ago. In this post I will talk about the first impressions I have on this very first rele...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/thumbnail_wav2bar_showcase.jpg" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
-
-<!--pagination-->
-<div class="pagination-bar">
-  <ul class="pagination">
-    
-    
-  </ul>
-</div>
-
+</article>
 
         </div>
       </div>

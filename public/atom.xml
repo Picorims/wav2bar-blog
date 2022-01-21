@@ -3,11 +3,11 @@
   <title>Wav2Bar Blog</title>
   
   
-  <link href="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/atom.xml" rel="self"/>
+  <link href="https://picorims.github.io/wav2bar-blog/public/atom.xml" rel="self"/>
   
-  <link href="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/"/>
-  <updated>2022-01-16T20:18:04.000Z</updated>
-  <id>https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/</id>
+  <link href="https://picorims.github.io/wav2bar-blog/public/"/>
+  <updated>2022-01-20T16:19:38.000Z</updated>
+  <id>https://picorims.github.io/wav2bar-blog/public/</id>
   
   <author>
     <name>Picorims</name>
@@ -17,9 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Introducing Wav2Bar Beta 0.3.0</title>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/</id>
+    <published>2022-01-21T16:19:38.000Z</published>
+    <updated>2022-01-20T16:19:38.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of</summary>
+        
+      
+    
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
+    
+    <category term="releases" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/releases/"/>
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
+    
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
+    
+    <category term="release" scheme="https://picorims.github.io/wav2bar-blog/public/tags/release/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Devlog - January 2022</title>
-    <link href="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2022/01/16/devlog-january-2022/"/>
-    <id>https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2022/01/16/devlog-january-2022/</id>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2022/01/16/devlog-january-2022/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2022/01/16/devlog-january-2022/</id>
     <published>2022-01-16T20:18:04.000Z</published>
     <updated>2022-01-16T20:18:04.000Z</updated>
     
@@ -35,23 +67,23 @@
     
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
     
-    <category term="devlogs" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/devlogs/"/>
+    <category term="devlogs" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/devlogs/"/>
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
     
-    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/beta/"/>
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
     
-    <category term="devlog" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/devlog/"/>
+    <category term="devlog" scheme="https://picorims.github.io/wav2bar-blog/public/tags/devlog/"/>
     
   </entry>
   
   <entry>
     <title>Devlog - September 2021</title>
-    <link href="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/09/25/devlog-september-2021/"/>
-    <id>https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/09/25/devlog-september-2021/</id>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2021/09/25/devlog-september-2021/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2021/09/25/devlog-september-2021/</id>
     <published>2021-09-25T21:21:51.000Z</published>
     <updated>2021-09-25T21:44:26.000Z</updated>
     
@@ -67,23 +99,23 @@
     
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
     
-    <category term="devlogs" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/devlogs/"/>
+    <category term="devlogs" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/devlogs/"/>
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
     
-    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/beta/"/>
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
     
-    <category term="devlog" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/devlog/"/>
+    <category term="devlog" scheme="https://picorims.github.io/wav2bar-blog/public/tags/devlog/"/>
     
   </entry>
   
   <entry>
     <title>Introducing Wav2Bar Beta 0.2.0</title>
-    <link href="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/"/>
-    <id>https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/</id>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/</id>
     <published>2021-07-21T16:01:35.000Z</published>
     <updated>2021-07-21T16:28:11.000Z</updated>
     
@@ -99,23 +131,23 @@
     
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
     
-    <category term="releases" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/releases/"/>
+    <category term="releases" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/releases/"/>
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
     
-    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/beta/"/>
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
     
-    <category term="release" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/release/"/>
+    <category term="release" scheme="https://picorims.github.io/wav2bar-blog/public/tags/release/"/>
     
   </entry>
   
   <entry>
     <title>Beta 0.1 and general update</title>
-    <link href="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/"/>
-    <id>https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/</id>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/</id>
     <published>2021-05-28T22:26:40.000Z</published>
     <updated>2021-09-24T20:00:27.808Z</updated>
     
@@ -131,23 +163,23 @@
     
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
     
-    <category term="releases" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/releases/"/>
+    <category term="releases" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/releases/"/>
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
     
-    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/beta/"/>
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
     
-    <category term="release" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/release/"/>
+    <category term="release" scheme="https://picorims.github.io/wav2bar-blog/public/tags/release/"/>
     
   </entry>
   
   <entry>
     <title>First post!</title>
-    <link href="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/01/26/first-post/"/>
-    <id>https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/2021/01/26/first-post/</id>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2021/01/26/first-post/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2021/01/26/first-post/</id>
     <published>2021-01-26T15:36:21.000Z</published>
     <updated>2021-01-27T20:19:04.856Z</updated>
     
@@ -163,10 +195,10 @@
     
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/categories/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
     
     
-    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/wav2bar-blog/public/wav2bar-blog/public/tags/news/"/>
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
     
   </entry>
   
