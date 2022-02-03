@@ -6,7 +6,7 @@
   <link href="https://picorims.github.io/wav2bar-blog/public/atom.xml" rel="self"/>
   
   <link href="https://picorims.github.io/wav2bar-blog/public/"/>
-  <updated>2022-01-20T16:19:38.000Z</updated>
+  <updated>2022-02-03T15:49:43.882Z</updated>
   <id>https://picorims.github.io/wav2bar-blog/public/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Important notice - February 2022</title>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2022/02/03/important-notice-february-2022/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2022/02/03/important-notice-february-2022/</id>
+    <published>2022-02-03T15:31:44.000Z</published>
+    <updated>2022-02-03T15:49:43.882Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;I make this quick post to let you know that I have to put aside Wav2Bar development from February to April. I may still do</summary>
+        
+      
+    
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Introducing Wav2Bar Beta 0.3.0</title>
     <link href="https://picorims.github.io/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/"/>
     <id>https://picorims.github.io/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/</id>
     <published>2022-01-21T16:19:38.000Z</published>
-    <updated>2022-01-20T16:19:38.000Z</updated>
+    <updated>2022-02-03T15:29:42.389Z</updated>
     
     
       
