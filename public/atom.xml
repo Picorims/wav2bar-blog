@@ -6,7 +6,7 @@
   <link href="https://picorims.github.io/wav2bar-blog/public/atom.xml" rel="self"/>
   
   <link href="https://picorims.github.io/wav2bar-blog/public/"/>
-  <updated>2022-03-19T21:42:00.409Z</updated>
+  <updated>2024-06-09T17:36:07.000Z</updated>
   <id>https://picorims.github.io/wav2bar-blog/public/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>(Dev)log - June 2024</title>
+    <link href="https://picorims.github.io/wav2bar-blog/public/2024/06/09/devlog-june-2024/"/>
+    <id>https://picorims.github.io/wav2bar-blog/public/2024/06/09/devlog-june-2024/</id>
+    <published>2024-06-09T17:36:07.000Z</published>
+    <updated>2024-06-09T17:36:07.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;Long time no see uh? You thought the project was dead? Ok, the git history is very calm, but I would rather call it</summary>
+        
+      
+    
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/"/>
+    
+    <category term="devlogs" scheme="https://picorims.github.io/wav2bar-blog/public/categories/news/devlogs/"/>
+    
+    
+    <category term="news" scheme="https://picorims.github.io/wav2bar-blog/public/tags/news/"/>
+    
+    <category term="beta" scheme="https://picorims.github.io/wav2bar-blog/public/tags/beta/"/>
+    
+    <category term="devlog" scheme="https://picorims.github.io/wav2bar-blog/public/tags/devlog/"/>
+    
+  </entry>
   
   <entry>
     <title>Off my chest - March 2022</title>

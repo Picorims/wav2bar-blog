@@ -12,32 +12,36 @@
   <meta charset="utf-8">
 
   
-  <title>All Posts - Picorims</title>
+  <title>(Dev)log - June 2024</title>
 
   
-  <meta name="description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta name="description" content="Hi! Long time no see uh? You thought the project was dead? Ok, the git history is very calm, but I would rather call it hibernation. Anyway, quite a l">
   
 
   <meta name="author" content="Picorims">
 
   
+  <meta property="og:image" content="https://picorims.github.io/2024/06/09/devlog-june-2024/w2b_penpot_2.jpg">
+  
 
   <meta property="og:site_name" content="Wav2Bar Blog" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="All Posts - Picorims" />
+  <meta property="og:title" content="(Dev)log - June 2024" />
   
-  <meta property="og:description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta property="og:description" content="Hi! Long time no see uh? You thought the project was dead? Ok, the git history is very calm, but I would rather call it hibernation. Anyway, quite a l">
   
-  <meta property="og:url" content="https://picorims.github.io/archives/index.html" />
+  <meta property="og:url" content="https://picorims.github.io/2024/06/09/devlog-june-2024/index.html" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="All Posts - Picorims">
+  <meta name="twitter:title" content="(Dev)log - June 2024">
   
-  <meta name="twitter:description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta name="twitter:description" content="Hi! Long time no see uh? You thought the project was dead? Ok, the git history is very calm, but I would rather call it hibernation. Anyway, quite a l">
   
 
   
-  <meta name="twitter:url" content="https://picorims.github.io/archives/index.html" />
+  <meta name="twitter:image" content="https://picorims.github.io/2024/06/09/devlog-june-2024/w2b_penpot_2.jpg">
+  
+  <meta name="twitter:url" content="https://picorims.github.io/2024/06/09/devlog-june-2024/index.html" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -130,255 +134,42 @@
       <div class="nine columns">
         <div class="trans">
           <!--page content-->
-          <!--archives or category page-->
+          <!--post content-->
+<article class="no-border main-article">
+  <h1>(Dev)log - June 2024</h1>
+  <img class="post-thumbnail mb-3" src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_penpot_2.jpg" alt="thumbnail">
+
+  <p>Hi!</p>
+<p>Long time no see uh? You thought the project was dead? Ok, the git history is very calm, but I would rather call it hibernation. Anyway, quite a lot happened since the last time even though it might not look like it, and this post will serve as recap of all of it. I will also talk about the future I envision for the project. Though, as always, life is busy, etc. You know the rules and so do I.</p>
+<h2 id="Wav2Bar-0-3-x-releases"><a href="#Wav2Bar-0-3-x-releases" class="headerlink" title="Wav2Bar 0.3.x releases"></a>Wav2Bar 0.3.x releases</h2><p>Since the last post, three minor versions were released. They were mostly dedicated to bug fixes, though some user interface improvements also made their way out. Notably, the sidebar is now resizable and some tabs received a little lifting.</p>
+<img src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_0_3_3_before_after.png" class="" title="The project tab before and after 0.3 minor updates">
+
+<p>This was possible thanks to yet another refactor. Yet another iteration. One too much. I was starting to write my own UI framework, that does’t make any sense anymore! (It’s a nice challenge, don’t get me wrong, but it is only fun for a moment.)</p>
+<h2 id="Are-we-rewriting-yet"><a href="#Are-we-rewriting-yet" class="headerlink" title="Are we rewriting yet?"></a>Are we rewriting yet?</h2><p>I am now quite sure I won’t touch the existing app ever again other than for important and low work patches. I strongly think the small time dedicated to that project should rather go in an effort to start better from scratch. It is the best option for the long term. At first I thought: “Oh well, they’ll forget about it and move on.”. Though, quite surprisingly, I kept receiving mails, issue reports, messages on the Discord server, and even pull requests to patch the unpatchable! YouTube videos citing Wav2Bar in their description continue to be released as well. And at least a thousand more copies were downloaded within the last year. Which means, some people are still suffering on this thing (guys why? :’)).</p>
+<p>So I gave a first try to that idea by prototyping some UI. It was the opportunity to try PenPot for UI design, and I came up with this:</p>
+<img src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_penpot_1.jpg" class="" title="The first iteration of the user interface redesign">
+
+<p>link: <a target="_blank" rel="noopener" href="https://design.penpot.app/#/view/82e31d90-3829-8139-8002-c506ce8814c1?page-id=82e31d90-3829-8139-8002-c506ce8814c2&amp;section=interactions&amp;index=0&amp;share-id=dbcc1ffd-3b06-8112-8002-ee511a3f3cd7">https://design.penpot.app/#/view/82e31d90-3829-8139-8002-c506ce8814c1?page-id=82e31d90-3829-8139-8002-c506ce8814c2&amp;section=interactions&amp;index=0&amp;share-id=dbcc1ffd-3b06-8112-8002-ee511a3f3cd7</a> </p>
+<p>There were three main goals here: better user experience, more control over space for the screen and a user interface closer to standards.</p>
+<p>After that, I decided to go into prototyping again. In reality I was thinking about technologies for a rewrite for years. But I settled more or less while doing this redesign. So I tried to do a <a target="_blank" rel="noopener" href="https://github.com/Picorims/audio-visualization-tauri">very simple visualizer using Tauri</a>. I couldn’t do everything I envisioned (notably progressive buffering of audio spectrum data and on-demand transmission of such data), but it was still promising. With Tauri v2.0 coming around the corner, there is still room for performance improvement, and even the possibility (although very unlikely) of supporting Android. Not iOS, sorry, that’s too expensive to support (or DIY, that’s the nice thing with open-source after all). So I consider now that once this version is out, I can kick-off the rewrite. Finally.</p>
+<p>Meanwhile, I still did some design here and there to iterate a second time on the user interface. With some bit of experience gained here, I tried to make a better use of colors and spacing (to my developer knowledge, I am not a designer!).</p>
+<img src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_penpot_2.jpg" class="" title="The second iteration of the user interface redesign">
+<img src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_penpot_2_buttons.jpg" class="" title="New buttons">
+<img src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_penpot_2_inputs.jpg" class="" title="New inputs">
+
+<p>while it is very similar feature wise, I feel like having a more polished ground for starting developing the user interface. Not all interactions are represented, but what I stated above is still true (collapsible parts notably).</p>
+<h2 id="Ok-now-what"><a href="#Ok-now-what" class="headerlink" title="Ok, now what?"></a>Ok, now what?</h2><p>I hope to start developing the project again this summer. I hope. I can’t and won’t promise anything, but I hope. With the prototype at hand, and design ready to use, it doesn’t feel that ambitious, as long as I calm down my perfectionism at least while reaching a stable state, before going too deep into optimizations. The first step is reaching feature parity and backward support for existing saves, while potentially doing some small improvements. But I already need to envision the future while architecturing the new app. That’s where you come in.</p>
+<h2 id="I-need-you"><a href="#I-need-you" class="headerlink" title="I need you!"></a>I need you!</h2><p>Yes, you. Are you using Wav2Bar? Do you plan to do it? Would you use it if it was better? Then hop onto my Discord server (<a target="_blank" rel="noopener" href="https://discord.gg/EVGzfdP">https://discord.gg/EVGzfdP</a>) and vote on polls! The first one is already open! You can also continue to open issues on GitHub, they will be taken into consideration. There aren’t so many users (at all), so your voice has power!</p>
+<p>So now, that’s up to you too. Show me that you would be interested. I am anyway, but the more support I get, the more motivating it will be.</p>
+<p>Have a nice day/evening/night, and see you hopefully not in two years :’).</p>
+<p>~ Picorims</p>
+
+  <p><a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a> — Jun 9, 2024 - 19:36:07, Updated on Jun 9, 2024 - 19:36:07</p>
+  <p>Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
+  <!--comments section of a post-->
 
 
-  <h1 class="">Archives</h1>
-
-
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jun 9, 2024</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2024/06/09/devlog-june-2024/" class="">
-            
-              (Dev)log - June 2024
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Long time no see uh? You thought the project was dead? Ok, the git history is very calm, but I would rather call it hibernation. Anyway, quite a l...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_penpot_2.jpg" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Mar 19, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/03/19/off-my-chest-march-2022/" class="">
-            
-              Off my chest - March 2022
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi. If you are impatient, don’t have the time, do not bother reading, whatever: go to the TL;DR. But you won’t understand why this post exists. Now le...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/03/19/off-my-chest-march-2022/2022-01-20_beta-0-3_loading.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Feb 3, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/02/03/important-notice-february-2022/" class="">
-            
-              Important notice - February 2022
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! I make this quick post to let you know that I have to put aside Wav2Bar development from February to April. I may still do small bits of work here...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/02/03/important-notice-february-2022/2022-02-03_important-notice-feb-2022.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jan 21, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/" class="">
-            
-              Introducing Wav2Bar Beta 0.3.0
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of new visual objects, b...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jan 16, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/01/16/devlog-january-2022/" class="">
-            
-              Devlog - January 2022
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! It has been a while since the last update, so here’s a recap of what happened development wise. I will also discuss someother topics regarding the...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/01/16/devlog-january-2022/thumbnail-devlog-january-2022.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Sep 25, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/09/25/devlog-september-2021/" class="">
-            
-              Devlog - September 2021
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! I have been quite silent since Wav2Bar 0.2.0 release on July. I think now is a good opportunity to let you know how things are going, as well as g...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/09/25/devlog-september-2021/thumbnail-devlog-september-2021.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jul 21, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/" class="">
-            
-              Introducing Wav2Bar Beta 0.2.0
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of this version. For detai...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/2021-07-21-155400-wav2bar-0-2-0-beta.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">May 29, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/" class="">
-            
-              Beta 0.1 and general update
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! The first beta of Wav2Bar (0.1) has been released a month ago. In this post I will talk about the first impressions I have on this very first rele...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/05/29/beta-0-1-and-general-update/thumbnail_wav2bar_showcase.jpg" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jan 26, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/01/26/first-post/" class="">
-            
-              First post!
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! I aim to release updates and changelogs for Wav2Bar on this blog page. The future will tell if it is successful or not… For now, here’s a visualiz...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/01/26/first-post/main_background.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a></p>
-    </div>
-  </article>
-
-<!--pagination-->
-<div class="pagination-bar">
-  <ul class="pagination">
-    
-    
-  </ul>
-</div>
-
+</article>
 
         </div>
       </div>

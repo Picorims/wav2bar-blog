@@ -1,7 +1,10 @@
 - be in ./blog/
 - npx hexo <command>
 
-- npx hexo generate --config _config.yml,_config.local.yml
-- npx hexo serve
+- npx hexo clean
+- npx hexo generate --config _config.yml
+- (same with_config.local.yml)
 
 - node feed_patcher.js
+
+- npx hexo serve
