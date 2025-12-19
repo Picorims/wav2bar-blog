@@ -3,8 +3,8 @@ title: Devlog - December 2025
 categories:
 - news
 - devlogs
-date: 2025-12-19 12:00:00
-updated: 2025-12-19 12:00:00
+date: 2025-12-19 18:05:00
+updated: 2025-12-19 18:05:00
 tags:
 - news
 - beta
