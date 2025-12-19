@@ -321,7 +321,7 @@ a.footer-link:focus {
 
 }
 
-.github, .twitter, .instagram, .youtube, .discord, .mail {
+.github, .twitter, .bluesky, .instagram, .youtube, .discord, .mail {
   width: 20px;
 }
 
@@ -331,8 +331,11 @@ a.footer-link:focus {
 .twitter {
   fill: #1DA1F2;
 }
+.bluesky {
+  fill: #1185FE;
+}
 .instagram {
-  fill: #E4405F
+  fill: #E4405F;
 }
 .youtube {
   fill: #FF0000;

@@ -4,7 +4,7 @@ title: "Blog"
 #main info
 #owner
 owner: "About the author"
-info: "I'm Picorims, a French freshman student, and I develop Wav2Bar on my sparetime."
+info: "I'm Picorims, a French IT engineer, and I develop Wav2Bar on my spare time."
 #description
 desc: "You can find release notes and updates about Wav2Bar here."
 #menu
@@ -19,7 +19,8 @@ max_post: 10
 place: https://www.google.com/search?q=picorims
 github: https://github.com/Picorims
 # instagram: https://www.instagram.com/adisaktijrs/
-twitter: https://twitter.com/picorims
+# twitter: https://twitter.com/picorims
+bluesky: https://bsky.app/profile/picorims.bsky.social
 youtube: https://www.youtube.com/channel/UCf15T29ZZ5RxQcbS9onQq9A
 discord: https://discord.gg/EVGzfdP
 mail: picorims.contact@gmail.com
