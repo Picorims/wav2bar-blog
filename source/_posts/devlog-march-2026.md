@@ -4,13 +4,15 @@ categories:
 - news
 - devlogs
 date: 2026-03-31 18:31:11
-updated: 2026-03-31 18:31:11
+updated: 2026-03-31 20:49:04
 tags:
 - news
 - beta
 - devlog
 thumbnail: thumbnail-devlog-march-2026.png
 ---
+
+Update: links have been fixed, sorry!
 
 Hi!
 
@@ -29,7 +31,7 @@ While migrating, I decided to switch from a dropdown to a number input. I believ
 
 ### Working directory replacing the portable app
 
-Unfortunately, the framework I use for the rewrite, Tauri, [does not support portable apps]("https://github.com/orgs/tauri-apps/discussions/3048") (at least not officially). However I still personally like to choose where data is stored, especially because all the computers I got never got that much space on the system drive compared to the data drive. And I know it is the case for some users, that complained about it. So the workaround is setting up a working directory, where temporary files, settings, and cache will be stored. This technically allows to have multiple workspaces, however it is not supported nor the intended use.
+Unfortunately, the framework I use for the rewrite, Tauri, [does not support portable apps](https://github.com/orgs/tauri-apps/discussions/3048) (at least not officially). However I still personally like to choose where data is stored, especially because all the computers I got never got that much space on the system drive compared to the data drive. And I know it is the case for some users, that complained about it. So the workaround is setting up a working directory, where temporary files, settings, and cache will be stored. This technically allows to have multiple workspaces, however it is not supported nor the intended use.
 
 {% asset_img 2026-03-01_w2b_working_dir.png New working directory setting. %}
 
@@ -64,13 +66,13 @@ Some of my considerations include WebM and AV1 for videos, and OPUS and OGG for 
 
 ## Let's talk money
 
-I have always refused donations until now to not have to deal with the boring French bureaucracy that comes with it. I am starting to reconsider that decision after noticing some uptick of activity in the last few months. If you would be willing to support the project monetarily (thank you for that, truly!), I invite you to answer [the donation form that I opened]("https://framaforms.org/would-you-donate-1771697595") (which can also be found on [Wav2Bar's website]("https://picorims.github.io/wav2bar-website/") and my [portfolio website]("https://picorims.github.io/")). If you prefer, you can also do a donation promise on [Liberapay]("https://fr.liberapay.com/Picorims/").
+I have always refused donations until now to not have to deal with the boring French bureaucracy that comes with it. I am starting to reconsider that decision after noticing some uptick of activity in the last few months. If you would be willing to support the project monetarily (thank you for that, truly!), I invite you to answer [the donation form that I opened](https://framaforms.org/would-you-donate-1771697595) (which can also be found on [Wav2Bar's website](https://picorims.github.io/wav2bar-website/) and my [portfolio website](https://picorims.github.io/)). If you prefer, you can also do a donation promise on [Liberapay](https://fr.liberapay.com/Picorims/).
 
 I would love to be able to live from FOSS development (and yes, I know it can be hell, and what I expose myself to in terms of user behaviour). This could be one way of achieving it, even part-time. But I need to assess if it is worth it, because opening donations would also generate some monthly fees for me, and so if I lose money it isn't really worth it... Which is why only "fake" donations are possible right now. No pressure though! Wav2Bar is free because I know that video software is expensive for many. It's ok if you can't or don't want to! Sharing the project, reporting bugs, opening feature request tickets, giving honest feedback are all very valuable. You might soon also be able to translate the app as well! This is basically checking if it could also partially pay the bills, or if it's (likely) utopic.
 
 ## Conclusion
 
-That's it for now! Feel free to get in touch if you have any questions. And if you want to monitor the progress more closely, both the [Bluesky account]("https://bsky.app/profile/picorims.bsky.social") and [GitHub milestone]("https://github.com/Picorims/wav2bar-reborn/milestone/1") are ways to have more frequent feedback. Just keep in mind that progress bar is a rough approximation, as finding bugs or shortcomings will always push it backwards! I also sometimes do polls on the [Discord Server]("https://discord.gg/EVGzfdP"), if that resonates with you.
+That's it for now! Feel free to get in touch if you have any questions. And if you want to monitor the progress more closely, both the [Bluesky account](https://bsky.app/profile/picorims.bsky.social) and [GitHub milestone](https://github.com/Picorims/wav2bar-reborn/milestone/1) are ways to have more frequent feedback. Just keep in mind that progress bar is a rough approximation, as finding bugs or shortcomings will always push it backwards! I also sometimes do polls on the [Discord Server](https://discord.gg/EVGzfdP), if that resonates with you.
 
 Anyways, happy Easter if you celebrate it, and beware of upcoming trolls because we are March 31st!
 
