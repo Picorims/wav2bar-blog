@@ -12,32 +12,36 @@
   <meta charset="utf-8">
 
   
-  <title>Wav2Bar Blog</title>
+  <title>Devlog - May 2026</title>
 
   
-  <meta name="description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta name="description" content="Hi! Here is a quick update on Wav2Bar development! No inspiration for intro this time, sorry! FFmpeg auto-detectionThis one has been requested multipl">
   
 
   <meta name="author" content="Picorims">
 
   
+  <meta property="og:image" content="https://picorims.github.io/2026/05/18/devlog-may-2026/2026-05-18_ffmpeg_autodetection.png">
+  
 
   <meta property="og:site_name" content="Wav2Bar Blog" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Wav2Bar Blog" />
+  <meta property="og:title" content="Devlog - May 2026" />
   
-  <meta property="og:description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta property="og:description" content="Hi! Here is a quick update on Wav2Bar development! No inspiration for intro this time, sorry! FFmpeg auto-detectionThis one has been requested multipl">
   
-  <meta property="og:url" content="https://picorims.github.io/index.html" />
+  <meta property="og:url" content="https://picorims.github.io/2026/05/18/devlog-may-2026/index.html" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wav2Bar Blog">
+  <meta name="twitter:title" content="Devlog - May 2026">
   
-  <meta name="twitter:description" content="Get information about Wav2Bar such as devlogs and releases.">
+  <meta name="twitter:description" content="Hi! Here is a quick update on Wav2Bar development! No inspiration for intro this time, sorry! FFmpeg auto-detectionThis one has been requested multipl">
   
 
   
-  <meta name="twitter:url" content="https://picorims.github.io/index.html" />
+  <meta name="twitter:image" content="https://picorims.github.io/2026/05/18/devlog-may-2026/2026-05-18_ffmpeg_autodetection.png">
+  
+  <meta name="twitter:url" content="https://picorims.github.io/2026/05/18/devlog-may-2026/index.html" />
 
   <meta name="fediverse:creator" content="@picorims@mastodon.social">
 
@@ -132,281 +136,36 @@
       <div class="nine columns">
         <div class="trans">
           <!--page content-->
-          <!--index.html content-->
-<div class="row ">
-  <div class="column">
-    <!-- Main information, edit it on theme/_config.yml -->
-    <h4 class="mb-2">About the author</h4>
-    <p>I&#39;m Picorims, a French IT engineer, and I develop Wav2Bar on my spare time.</p>
-    <p>You can find release notes and updates about Wav2Bar here.</p>
-  </div>
-</div>
+          <!--post content-->
+<article class="no-border main-article">
+  <h1>Devlog - May 2026</h1>
+  <img class="post-thumbnail mb-3" src="/wav2bar-blog/public/2026/05/18/devlog-may-2026/2026-05-18_ffmpeg_autodetection.png" alt="thumbnail">
 
-<h1>Recent Posts</h1>
+  <p>Hi!</p>
+<p>Here is a quick update on Wav2Bar development! No inspiration for intro this time, sorry!</p>
+<h2 id="FFmpeg-auto-detection"><a href="#FFmpeg-auto-detection" class="headerlink" title="FFmpeg auto-detection"></a>FFmpeg auto-detection</h2><p>This one has been requested multiple times: Wav2Bar should now be able to auto-detect an existing FFmpeg installation if it is present in PATH. You can check if it is detected directly from the settings. It is still possible to set or overwrite the path to FFmpeg from there as well (but not to specify the filename, to avoid having to specify the file for every single binary component).</p>
+<img src="/wav2bar-blog/public/2026/05/18/devlog-may-2026/2026-05-18_ffmpeg_autodetection.png" class="" title="Auto-detection of FFmpeg status in the settings screen.">
 
+<h2 id="Warning-popup-before-deletion"><a href="#Warning-popup-before-deletion" class="headerlink" title="Warning popup before deletion"></a>Warning popup before deletion</h2><p>In legacy, pressing the delete action was enough to irremediably remove the object, leaving you with the bad taste of having to recreate an entire object if it was a misclick. Now, a popup add some friction to reduce that risk. In the future, I also want to support undo/redo to some extent, but this should already be a first safe guard against that mistake (which already frustrated myself to be honest).</p>
+<img src="/wav2bar-blog/public/2026/05/18/devlog-may-2026/2026-05-18_deletion_warning.png" class="" title="Object deletion warning popup.">
 
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">May 18, 2026</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2026/05/18/devlog-may-2026/" class="">
-            
-              Devlog - May 2026
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Here is a quick update on Wav2Bar development! No inspiration for intro this time, sorry! FFmpeg auto-detectionThis one has been requested multipl...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2026/05/18/devlog-may-2026/2026-05-18_ffmpeg_autodetection.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
+<p>(Yes I didn’t put it on Bluesky, but it wasn’t that exciting to share. Does the picture above hype you?)</p>
+<h2 id="State-of-development"><a href="#State-of-development" class="headerlink" title="State of development"></a>State of development</h2><p>While the milestone is at 98% with a single ticket left (video export), it isn”t entirely accurate as I still have to do a bit of polishing before release (such as fixing saving which <em>might</em> be useful, and disabling non-implemented features GUI). I do not expect those to add much work though. Only testing might take a bit of time.</p>
+<p>I am deep into export work for the past two weeks now, which comes with its lot of frustration. I knew there’d be quite some friction, but not <em>that much</em>. But it is slowly getting there. I’ll also be working now side by side on both Wav2Bar and my other main project, Open Street Kart, for my sanity, because FFmpeg will drive me crazy otherwise!</p>
+<p>I also settled for now to exporting to MKV as a format, and AV1 as a codec, effectively replacing MP4 export. I know MP4 is widely popular, but it is also proprietary, with many patent barriers and royalties to pay. It is a whole legal mess which I just do not want to deal with. AV1 is the spiritual successor to H264 and H265 (for that exact reason, yep it even annoyed Google and Amazon). It is an open-format, and safer patent wise even if not fully patent-free. By now most hardware supports it, as well as platforms such as YouTube, Facebook, or Instagram. For platforms which doesn’t support it (yet), like Bluesky, Mastodon or PeerTube, and that rely on MP4/H264, the conversion to MP4 would be quite straightforward in a terminal:</p>
+<p><code>ffmpeg -i input.mkv -c:v libx264 -c:a copy output.mp4</code></p>
+<p>This command converts input.mkv into output.mp4 using H264.</p>
+<p>That being said, I am open to recommendation of <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Comparison_of_video_container_formats">other formats and codecs to support</a>, as long as they are free (or freely licensed, or royalty-free) and open-source as well. Which doesn’t give much choice.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>As you can see, the end of the tunnel is coming closer and closer, but some hard work still needs to be done for that last stretch. <strong>I do not expect the first rewrite beta to be production ready with 100% confidence</strong>, but it at least gives you something to experiment with and give feedback on! If you would like to support the project, you can check <a target="_blank" rel="noopener" href="https://framaforms.org/would-you-donate-1771697595">the donation form that I opened</a> (which can also be found on <a href="https://picorims.github.io/wav2bar-website/">Wav2Bar’s website</a> and my <a href="https://picorims.github.io/">portfolio website</a>). If you prefer, you can also do a donation promise on <a target="_blank" rel="noopener" href="https://fr.liberapay.com/Picorims/">Liberapay</a>.</p>
+<p>That’s all for me, take all care of yourselves,</p>
+<p>~ Picorims</p>
 
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Mar 31, 2026</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2026/03/31/devlog-march-2026/" class="">
-            
-              Devlog - March 2026
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Update: links have been fixed, sorry! Hi! Here are some news about what has been going on in the last month regarding Wav2Bar development! If you foll...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2026/03/31/devlog-march-2026/thumbnail-devlog-march-2026.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Dec 19, 2025</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2025/12/19/devlog-december-2025/" class="">
-            
-              Devlog - December 2025
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! I said in the last post that I would see you hopefully not in two years. Well I am glad to tell you that it is only one year and a half 😅! Anyway...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2025/12/19/devlog-december-2025/thumbnail_w2b_screenshot_2025-12-18.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jun 9, 2024</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2024/06/09/devlog-june-2024/" class="">
-            
-              (Dev)log - June 2024
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Long time no see uh? You thought the project was dead? Ok, the git history is very calm, but I would rather call it hibernation. Anyway, quite a l...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2024/06/09/devlog-june-2024/w2b_penpot_2.jpg" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Mar 19, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/03/19/off-my-chest-march-2022/" class="">
-            
-              Off my chest - March 2022
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi. If you are impatient, don’t have the time, do not bother reading, whatever: go to the TL;DR. But you won’t understand why this post exists. Now le...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/03/19/off-my-chest-march-2022/2022-01-20_beta-0-3_loading.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Feb 3, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/02/03/important-notice-february-2022/" class="">
-            
-              Important notice - February 2022
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! I make this quick post to let you know that I have to put aside Wav2Bar development from February to April. I may still do small bits of work here...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/02/03/important-notice-february-2022/2022-02-03_important-notice-feb-2022.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jan 21, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/" class="">
-            
-              Introducing Wav2Bar Beta 0.3.0
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Here’s a quick tour around what’s new with Wav2Bar 0.3.0. This update is mostly a technical update preparing the addition of new visual objects, b...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/01/21/beta-0-3-presentation/2022-01-20_beta-0-3.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jan 16, 2022</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2022/01/16/devlog-january-2022/" class="">
-            
-              Devlog - January 2022
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! It has been a while since the last update, so here’s a recap of what happened development wise. I will also discuss someother topics regarding the...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2022/01/16/devlog-january-2022/thumbnail-devlog-january-2022.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Sep 25, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/09/25/devlog-september-2021/" class="">
-            
-              Devlog - September 2021
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! I have been quite silent since Wav2Bar 0.2.0 release on July. I think now is a good opportunity to let you know how things are going, as well as g...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/09/25/devlog-september-2021/thumbnail-devlog-september-2021.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
-    </div>
-  </article>
-
-  <article>
-    <div class="row article-container">
-  
-      <div class="three columns lit">
-        <p class="bottom">Jul 21, 2021</p>
-      </div>
-      <div class="nine columns ml-0">
-        <h5>
-          <a href="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/" class="">
-            
-              Introducing Wav2Bar Beta 0.2.0
-            
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div class="row article-container">
-      <p>Hi! Wav2Bar 0.2.0 has just been released with multiple improvements to try out. Here is a quick tour over the major changes of this version. For detai...</p>
-    </div>
-    <img src="/wav2bar-blog/public/2021/07/21/beta-0-2-presentation/2021-07-21-155400-wav2bar-0-2-0-beta.png" alt="thumbnail">
-    <div class="row article-container">
-      <p class="mb-1">Tags: <a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/release/" rel="tag">release</a></p>
-      <p class="mb-1">Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/releases/">releases</a></p>
-    </div>
-  </article>
+  <p><a class="tag-link" href="/wav2bar-blog/public/tags/beta/" rel="tag">beta</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/devlog/" rel="tag">devlog</a>, <a class="tag-link" href="/wav2bar-blog/public/tags/news/" rel="tag">news</a> — May 18, 2026 - 14:33:00, Updated on May 18, 2026 - 14:33:00</p>
+  <p>Categories: <a class="category-link" href="/wav2bar-blog/public/categories/news/">news</a>, <a class="category-link" href="/wav2bar-blog/public/categories/news/devlogs/">devlogs</a></p>
+  <!--comments section of a post-->
 
 
-<h6> <a href="/wav2bar-blog/public/archives">See All Posts</a></h6>
+</article>
 
         </div>
       </div>
