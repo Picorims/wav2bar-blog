@@ -2,3 +2,7 @@ body.darkmode {
   background: var(--main-black);
   color: var(--main-white);
 }
+
+body.darkmode .feed {
+  fill: var(--main-white);
+}
